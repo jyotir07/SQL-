@@ -7,3 +7,9 @@ Create table jyotirs_table(
 );
 -- Above program creates a table named jyotirs_table
 -- There are 3 columns in the table, and their datatype is defined
+
+--Adding elements into the table using "Insert into"
+Insert into jyotirs_table('personal_id', 'name', 'age') Values('1', 'Nish', '18');
+
+--Printing the all the elements from the table
+Select * from jyotirs_table;
