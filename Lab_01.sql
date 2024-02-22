@@ -18,4 +18,4 @@ Select * from jyotirs_table;
 delete from Jyotirs where name='Person_name';
 
 --adding another element
-insert into Jyotirs('personal_id','name','age')Values('1', 'Jyotir', '30');
+insert into Jyotirs('personal_id','name','age')Values('1', 'Jyotir', '19');
